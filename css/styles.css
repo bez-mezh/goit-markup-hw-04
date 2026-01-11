@@ -5,6 +5,12 @@
   --cloud: #f4f4fd;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -385,12 +391,6 @@ img {
 
 .portfolio-item:hover .portfolio-overlay {
   transform: translateY(0%);
-}
-
-.portfolio-card-content {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 
 .portfolio-card-content {
